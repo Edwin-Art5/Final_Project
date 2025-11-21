@@ -199,10 +199,4 @@ curl -H "Authorization: Bearer <token>" http://localhost:5000/api/films
 - For questions about this project contact the maintainer or open an issue in the repository.
 
 ---
-
-If you want, I can also:
-- Add the route mounting code directly to `server/server.js`.
-- Wire static serving of the client into the server.
-- Add example `.env.example` and `README` badges.
-
-Happy to make those additions — tell me which you'd like next.
+Deployment Link: https://zesty-pika-1c4294.netlify.app/
