@@ -1,0 +1,37 @@
+{
+  "name": "royalty-studios",
+  "version": "1.0.0",
+  "description": "Royalty Studioz - Faith Through Film - MERN Stack Application",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm run install-client && npm run install-server"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "christian",
+    "films",
+    "faith",
+    "royalty-studios"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
